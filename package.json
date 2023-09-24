@@ -1,0 +1,16 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "This is about Learnodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": " "
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "npm init"
+  },
+  "keywords": []
+}
