@@ -12,5 +12,9 @@
     "type": "git",
     "url": "npm init"
   },
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {}
 }
