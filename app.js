@@ -20,11 +20,25 @@ const app = require("express")()
 app.get("/", (req, res) => {
     // res.send("Hello world")
     res.json({
-        greet: "Hello"
+        MJ_Ansari: "Hello i am from HOME page"
+        // status:200
+        
     })
 })
+
 app.get("/contact", (req, res) => {
-    res.send("Hello ")
+    // res.send("Hello ")
+    res.json({
+        status:300,
+        Message:"MJ_Ansari"
+    })
+})
+app.get("/about", (req, res) => {
+    // res.send("Hello ")
+    res.json({
+        status:200,
+        Message:"Ansari"
+    })
 })
 
 app.listen(4000, (req, res) => {
